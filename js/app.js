@@ -112,7 +112,7 @@ function multiplyArray(multArr) { //eslint-disable-line
   let myProduct = multiply(multArr[0],multArr[1])[0];
   myProduct = multiply(myProduct,multArr[2])[0];
 
-  let myStr = `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${myProduct}.`
+  let myStr = `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${myProduct}.`;
 
   return [myProduct,myStr];
 }
